@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("img/newndsc.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+
+
+.form-box {
+  width: 350px;
+  padding: 40px 30px;
+  background: linear-gradient(to bottom, #d4f0d2, #006400);
+  text-align: center;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+
+.form-box h1,
+.form-box h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #004d00;
+  text-shadow: 1px 1px 2px #fff;
+  font-style: italic;
+}
+
+.logo {
+  width: 120px;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-weight: bold;
+  color: #004d00;
+  margin-bottom: 25px;
+}
+
+.form-box label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  margin: 8px 0 4px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.form-box button {
+  background: #fff;
+  color: #006400;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-box button:hover {
+  background: #004d00;
+  color: #fff;
+}
+
+.link {
+  display: block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

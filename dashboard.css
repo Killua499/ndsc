@@ -1,0 +1,25 @@
+ body {
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    /* Top Navbar */
+    .topbar {
+      background-color: #0f6d2f; /* Green */
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15px;
+    }
+    .hamburger {
+      font-size: 24px;
+      color: white;
+      cursor: pointer;
+    }
+    .logo {
+      height: 45px;
+    }
+    .content {
+      padding: 20px;
+    }
